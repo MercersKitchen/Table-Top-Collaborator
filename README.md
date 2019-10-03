@@ -7,6 +7,10 @@ Resources
 - https://processing.org/
 - http://ketai.org/
 
+Hyperlinks
+- To Do List, <a href="">Click Here</a>
+- Ideas, <a href="">Click Here</a>
+
 ---
 
 # To Do List
@@ -15,6 +19,14 @@ Resources
 - [] List how to interact with tablet - focuses Ketai Library
 - [] Develop workflow from prototyping on Computer screen to tablet
   - What parts of the code needs to change
+
+---
+
+# Ideas - Text-based game supporting D&D Club
+- App used as a tool
+- When app closes, save to file (.txt), then opens with this file
+- Try to incorporate Processing-Java Server-Client code for full game play on phones
+- Rolling dice utilizing physics engine
 
 ---
 
