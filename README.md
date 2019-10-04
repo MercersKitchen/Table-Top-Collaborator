@@ -19,7 +19,10 @@ Hyperlinks
 - [] List how to interact with tablet - focuses Ketai Library
 - [] Develop workflow from prototyping on Computer screen to tablet
   - What parts of the code needs to change
-
+- [] Explore Processing Library to create form data entry
+  - https://processing.org/reference/libraries/#gui / Interfascia
+  - https://github.com/brendanberg/interfascia 
+ 
 ---
 
 # Ideas - Text-based game supporting D&D Club
