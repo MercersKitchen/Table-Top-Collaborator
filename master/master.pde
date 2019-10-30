@@ -9,10 +9,11 @@ void setup() {
 }
 void draw(){
   tabs();//reserves the top 3/40 of the phone screen for swapping tabs so dont try to use that part of the screen
-  while (charTab) {drawCharSheet();}
-  while (diceTab) {drawDice();}
-  while (storyTab) {drawStory();}
+  if (charTab) {drawCharSheet();}
+  if (diceTab) {drawDice();}
+  if (storyTab) {drawStory();}
 }
 void mouseClicked(){
   TabClick();
+  print(mouseX,mouseY);
 }
