@@ -1,5 +1,4 @@
 void tabs (){
-  rectMode(CORNERS);
 if (charTab) {strokeWeight(3); fill(180);}//tab drawing
   rect (0,0,(width*1/3)-3,height*3/40);
   strokeWeight(1);
