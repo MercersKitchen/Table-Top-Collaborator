@@ -10,8 +10,7 @@ void setup() {
   background(210);
   rectMode(CORNERS);
   font = createFont("Times New Roman", 20);
-  textFont(font);
-  textAlign(CENTER, CENTER);
+  
 }
 void draw(){
   tabs();//reserves the top 3/40 of the phone screen for swapping tabs so dont try to use that part of the screen

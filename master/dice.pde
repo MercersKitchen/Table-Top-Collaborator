@@ -22,8 +22,10 @@ void drawDice() {
   rect (width*78/80,height*19/80,width*65/80,height*13/80);//subtract mod
   rect (width*2/80,height*7/80,width*15/80,height*13/80);//add dice
   rect (width*78/80,height*7/80,width*65/80,height*13/80);//subtract dice
-  for(int i=1; i < 77 ;i +=11)rect(width*(i+1)/80,height*34/80,width*(i+11)/80,height*29/80);}
-  text (diceDisplay,width*40/80,height*13/80);
+  for(int i=1; i < 77 ;i +=11){rect(width*(i+1)/80,height*34/80,width*(i+11)/80,height*29/80);}
+  textFont(font);
+  textAlign(CENTER, CENTER);
+  text (diceDisplay,width*30/80,height*10/80,width*50/80,height*17/80);
 }
 void diceClick() {
   //toggle advantage
