@@ -12,7 +12,7 @@ if (storyTab) {strokeWeight(3); fill(180);}
    strokeWeight(1);
    fill(210);
 }//end tab drawing
-void TabClick() {//switch tab listners
+void tabClick() {//switch tab listners
   if (charTab){
     if (mouseX>width*1/3 && mouseX<width*2/3 && mouseY>0 && mouseY<height*3/40){charTab = false; diceTab = true;}
     if (mouseX>width*2/3 && mouseX<width && mouseY>0 && mouseY<height*3/40){charTab = false; storyTab = true;}
